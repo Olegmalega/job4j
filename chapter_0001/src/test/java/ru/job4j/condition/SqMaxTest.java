@@ -23,6 +23,6 @@ public class SqMaxTest {
     @Test
     public void whenall() {
         int s = SqMax.max(6, 4, 7, 5);
-        assertThat(s, is(5));
+        assertThat(s, is(7));
     }
 }
