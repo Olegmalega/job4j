@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class PrimeNumberTest {
     @Test
-    public void when5() {
+    public void when05() {
         PrimeNumber prime = new PrimeNumber();
         int count = prime.calc(5);
         assertThat(count, is(3));
@@ -21,7 +21,7 @@ public class PrimeNumberTest {
     }
 
     @Test
-    public void when2() {
+    public void when02() {
         PrimeNumber prime = new PrimeNumber();
         int count = prime.calc(2);
         assertThat(count, is(1));
