@@ -21,7 +21,7 @@ public class SqMaxTest {
         assertThat(s, is(8));
     }
     @Test
-    public void whenall() {
+    public void whenAll() {
         int s = SqMax.max(6, 4, 7, 5);
         assertThat(s, is(7));
     }
